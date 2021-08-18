@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "mongo.base",
+      "type": "org.yx.BaseProperties",
+      "sourceType": "org.yx.BaseProperties"
+    },
+    {
+      "name": "mongo.base.distribute",
+      "type": "org.yx.BaseProperties$Distribute",
+      "sourceType": "org.yx.BaseProperties$Distribute",
+      "sourceMethod": "getDistribute()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mongo.base.test",
+      "type": "java.lang.String",
+      "description": "test use.",
+      "sourceType": "org.yx.BaseProperties"
+    },
+    {
+      "name": "mongo.base.distribute",
+      "type": "org.yx.BaseProperties$Distribute",
+      "description": "distribute test.",
+      "sourceType": "org.yx.BaseProperties"
+    },
+    {
+      "name": "mongo.base.distribute.test1",
+      "type": "java.lang.String",
+      "description": "test1 use.",
+      "sourceType": "org.yx.BaseProperties$Distribute"
+    }
+  ],
+  "hints": []
+}
